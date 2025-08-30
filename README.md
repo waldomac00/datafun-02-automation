@@ -30,11 +30,9 @@ py -m pip install --upgrade -r requirements.txt
 
 Remember to activate your .venv (and install packages if they haven't been installed yet) before running files.
 
-TODO: Change these to reflect your Python file names and remove this TODO.
-
 ```shell
-py utils_case.py
-py dirbot_case.py
+py utils_michaeljmoore.py
+py dirbot_michaeljmoore.py
 ```
 
 ## Commands to Git add-commit-push
@@ -102,13 +100,13 @@ py -m pip list
 **Mac/Linux**
 
 ```shell
-python3 utils_case.py
+python3 utils_michaeljmooree.py
 ```
 
 **Windows PowerShell**
 
 ```shell
-py utils_case.py
+py utils_michaeljmoore.py
 ```
 
 > To stop a running Python program, press `Ctrl + C` in the terminal 
