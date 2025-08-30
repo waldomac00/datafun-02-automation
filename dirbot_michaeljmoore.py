@@ -25,8 +25,7 @@ import loguru
 sys.path.append(str(pathlib.Path(__file__).resolve().parent))
 
 # Import local modules
-# TODO: Import your module in the line below instead
-import utils_case
+import utils_michaeljmoore
 
 #####################################
 # Configure Logger and Verify
@@ -68,6 +67,11 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     start_year -- The starting year of the range (inclusive).
     end_year -- The ending year of the range (inclusive).
     '''
+    for year in range(start_year, end_year + 1):
+        year_path = ROOT_DIR / str(year)
+        logger.info(f"Created folder: {year_path}")
+        year_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {year_path}")
 
     # Log function name and parameters
     logger.info("FUNCTION: create_folders_for_range()")
@@ -101,6 +105,11 @@ def create_folders_from_list(folder_list: list) -> None:
     Arguments:
     folder_list -- A list of strings representing folder names.
     '''
+    for name in folder_list():
+        name_path = ROOT_DIR / str(name)
+        logger.info(f"Created folder: {name_path}")
+        name_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {name_path}")
 
     logger.info("FUNCTION: create_folders_from_list()")
     logger.info(f"PARAMETER: folder_list = {folder_list}")
@@ -199,7 +208,7 @@ def main() -> None:
     logger.info("#####################################\n")
 
     # TODO: Change this to use your module and your get_byline() function instead
-    logger.info(f"Byline: {utils_case.get_byline()}")
+    logger.info(f"Byline: {utils_michaeljmoore.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
     create_folders_for_range(start_year=2020, end_year=2023)

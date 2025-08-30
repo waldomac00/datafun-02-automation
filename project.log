@@ -1,0 +1,201 @@
+2025-08-30 15:30:05 | INFO | __main__:47 | Logger loaded.
+2025-08-30 15:30:05 | INFO | __main__:162 | STARTING main()..
+2025-08-30 15:30:05 | INFO | __main__:163 | Byline:
+
+**********************************************************
+Moore CAD Design — Project Header
+**********************************************************
+Author:                     Michael J Moore
+Motto:                      Do Math not Magic. Show Your Work!
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+Location:                   Mexico, Missouri
+Office Locations            ['Mexico', 'Moberly', 'Fulton', 'Columbia']
+Number of Locations         16
+**********************************************************
+
+2025-08-30 15:30:12 | INFO | __main__:170 | Speech interrupted by user (Ctrl+C).
+2025-08-30 15:30:12 | INFO | __main__:174 | This module is organized like all Python modules.
+2025-08-30 15:30:12 | INFO | __main__:175 | We write professional Python from the start.
+2025-08-30 15:30:12 | INFO | __main__:176 | END main()...
+2025-08-30 15:30:34 | INFO | utils_michaeljmoore:47 | Logger loaded.
+2025-08-30 15:30:34 | INFO | __main__:37 | Logger loaded.
+2025-08-30 15:30:34.128 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-08-30 15:30:34 | INFO | __main__:197 | #####################################
+2025-08-30 15:30:34.128 | INFO     | __main__:main:197 - #####################################
+2025-08-30 15:30:34 | INFO | __main__:198 | # Starting execution of main()
+2025-08-30 15:30:34.129 | INFO     | __main__:main:198 - # Starting execution of main()
+2025-08-30 15:30:34 | INFO | __main__:199 | #####################################
+
+2025-08-30 15:30:34.129 | INFO     | __main__:main:199 - #####################################
+
+2025-08-30 15:30:34 | INFO | __main__:202 | Byline: 
+**********************************************************
+Moore CAD Design — Project Header
+**********************************************************
+Author:                     Michael J Moore
+Motto:                      Do Math not Magic. Show Your Work!
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+Location:                   Mexico, Missouri
+Office Locations            ['Mexico', 'Moberly', 'Fulton', 'Columbia']
+Number of Locations         16
+**********************************************************
+
+2025-08-30 15:30:34.130 | INFO     | __main__:main:202 - Byline: 
+**********************************************************
+Moore CAD Design — Project Header
+**********************************************************
+Author:                     Michael J Moore
+Motto:                      Do Math not Magic. Show Your Work!
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+Location:                   Mexico, Missouri
+Office Locations            ['Mexico', 'Moberly', 'Fulton', 'Columbia']
+Number of Locations         16
+**********************************************************
+
+2025-08-30 15:30:34 | INFO | __main__:73 | FUNCTION: create_folders_for_range()
+2025-08-30 15:30:34.130 | INFO     | __main__:create_folders_for_range:73 - FUNCTION: create_folders_for_range()
+2025-08-30 15:30:34 | INFO | __main__:74 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-08-30 15:30:34.131 | INFO     | __main__:create_folders_for_range:74 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-08-30 15:30:34 | INFO | __main__:105 | FUNCTION: create_folders_from_list()
+2025-08-30 15:30:34.131 | INFO     | __main__:create_folders_from_list:105 - FUNCTION: create_folders_from_list()
+2025-08-30 15:30:34 | INFO | __main__:106 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-08-30 15:30:34.132 | INFO     | __main__:create_folders_from_list:106 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-08-30 15:30:34 | INFO | __main__:134 | FUNCTION: create_prefixed_folders()
+2025-08-30 15:30:34.132 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - FUNCTION: create_prefixed_folders()
+2025-08-30 15:30:34 | INFO | __main__:135 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-08-30 15:30:34.133 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:135 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-08-30 15:30:34 | INFO | __main__:157 | FUNCTION: create_folders_periodically()
+2025-08-30 15:30:34.133 | INFO     | __main__:create_folders_periodically:157 - FUNCTION: create_folders_periodically()
+2025-08-30 15:30:34 | INFO | __main__:158 | PARAMETER: duration_seconds = 5
+2025-08-30 15:30:34.133 | INFO     | __main__:create_folders_periodically:158 - PARAMETER: duration_seconds = 5
+2025-08-30 15:30:34 | INFO | __main__:185 | FUNCTION: create_standardized_folders()
+2025-08-30 15:30:34.134 | INFO     | __main__:create_standardized_folders:185 - FUNCTION: create_standardized_folders()
+2025-08-30 15:30:34 | INFO | __main__:186 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-08-30 15:30:34.134 | INFO     | __main__:create_standardized_folders:186 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-08-30 15:30:34 | INFO | __main__:223 | 
+#####################################
+2025-08-30 15:30:34.135 | INFO     | __main__:main:223 - 
+#####################################
+2025-08-30 15:30:34 | INFO | __main__:224 | # Completed execution of main()
+2025-08-30 15:30:34.135 | INFO     | __main__:main:224 - # Completed execution of main()
+2025-08-30 15:30:34 | INFO | __main__:225 | #####################################
+2025-08-30 15:30:34.136 | INFO     | __main__:main:225 - #####################################
+2025-08-30 16:03:46 | INFO | utils_michaeljmoore:47 | Logger loaded.
+2025-08-30 16:03:46 | INFO | __main__:36 | Logger loaded.
+2025-08-30 16:03:46.935 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-08-30 16:03:46 | INFO | __main__:201 | #####################################
+2025-08-30 16:03:46.935 | INFO     | __main__:main:201 - #####################################
+2025-08-30 16:03:46 | INFO | __main__:202 | # Starting execution of main()
+2025-08-30 16:03:46.936 | INFO     | __main__:main:202 - # Starting execution of main()
+2025-08-30 16:03:46 | INFO | __main__:203 | #####################################
+
+2025-08-30 16:03:46.936 | INFO     | __main__:main:203 - #####################################
+
+2025-08-30 16:03:46 | INFO | __main__:206 | Byline: 
+**********************************************************
+Moore CAD Design — Project Header
+**********************************************************
+Author:                     Michael J Moore
+Motto:                      Do Math not Magic. Show Your Work!
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+Location:                   Mexico, Missouri
+Office Locations            ['Mexico', 'Moberly', 'Fulton', 'Columbia']
+Number of Locations         16
+**********************************************************
+
+2025-08-30 16:03:46.936 | INFO     | __main__:main:206 - Byline: 
+**********************************************************
+Moore CAD Design — Project Header
+**********************************************************
+Author:                     Michael J Moore
+Motto:                      Do Math not Magic. Show Your Work!
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+Location:                   Mexico, Missouri
+Office Locations            ['Mexico', 'Moberly', 'Fulton', 'Columbia']
+Number of Locations         16
+**********************************************************
+
+2025-08-30 16:03:46 | INFO | __main__:72 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-08-30 16:03:46.938 | INFO     | __main__:create_folders_for_range:72 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-08-30 16:03:46 | INFO | __main__:74 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-08-30 16:03:46.939 | INFO     | __main__:create_folders_for_range:74 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-08-30 16:03:46 | INFO | __main__:72 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-08-30 16:03:46.940 | INFO     | __main__:create_folders_for_range:72 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-08-30 16:03:46 | INFO | __main__:74 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-08-30 16:03:46.941 | INFO     | __main__:create_folders_for_range:74 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-08-30 16:03:46 | INFO | __main__:72 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-08-30 16:03:46.941 | INFO     | __main__:create_folders_for_range:72 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-08-30 16:03:46 | INFO | __main__:74 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-08-30 16:03:46.942 | INFO     | __main__:create_folders_for_range:74 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-08-30 16:03:46 | INFO | __main__:72 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-08-30 16:03:46.943 | INFO     | __main__:create_folders_for_range:72 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-08-30 16:03:46 | INFO | __main__:74 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-08-30 16:03:46.944 | INFO     | __main__:create_folders_for_range:74 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-08-30 16:03:46 | INFO | __main__:77 | FUNCTION: create_folders_for_range()
+2025-08-30 16:03:46.944 | INFO     | __main__:create_folders_for_range:77 - FUNCTION: create_folders_for_range()
+2025-08-30 16:03:46 | INFO | __main__:78 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-08-30 16:03:46.945 | INFO     | __main__:create_folders_for_range:78 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-08-30 16:03:46 | INFO | __main__:109 | FUNCTION: create_folders_from_list()
+2025-08-30 16:03:46.945 | INFO     | __main__:create_folders_from_list:109 - FUNCTION: create_folders_from_list()
+2025-08-30 16:03:46 | INFO | __main__:110 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-08-30 16:03:46.946 | INFO     | __main__:create_folders_from_list:110 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-08-30 16:03:46 | INFO | __main__:138 | FUNCTION: create_prefixed_folders()
+2025-08-30 16:03:46.946 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:138 - FUNCTION: create_prefixed_folders()
+2025-08-30 16:03:46 | INFO | __main__:139 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-08-30 16:03:46.947 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:139 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-08-30 16:03:46 | INFO | __main__:161 | FUNCTION: create_folders_periodically()
+2025-08-30 16:03:46.948 | INFO     | __main__:create_folders_periodically:161 - FUNCTION: create_folders_periodically()
+2025-08-30 16:03:46 | INFO | __main__:162 | PARAMETER: duration_seconds = 5
+2025-08-30 16:03:46.948 | INFO     | __main__:create_folders_periodically:162 - PARAMETER: duration_seconds = 5
+2025-08-30 16:03:46 | INFO | __main__:189 | FUNCTION: create_standardized_folders()
+2025-08-30 16:03:46.948 | INFO     | __main__:create_standardized_folders:189 - FUNCTION: create_standardized_folders()
+2025-08-30 16:03:46 | INFO | __main__:190 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-08-30 16:03:46.949 | INFO     | __main__:create_standardized_folders:190 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-08-30 16:03:46 | INFO | __main__:227 | 
+#####################################
+2025-08-30 16:03:46.949 | INFO     | __main__:main:227 - 
+#####################################
+2025-08-30 16:03:46 | INFO | __main__:228 | # Completed execution of main()
+2025-08-30 16:03:46.950 | INFO     | __main__:main:228 - # Completed execution of main()
+2025-08-30 16:03:46 | INFO | __main__:229 | #####################################
+2025-08-30 16:03:46.950 | INFO     | __main__:main:229 - #####################################
