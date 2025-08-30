@@ -1,16 +1,13 @@
 """
-File: dirbot_case.py
+File: michaeljmoore_project_setup.py
 
 Purpose: Automate the creation of project folders 
 (and demonstrate basic Python coding skills).
 
 Hint: See the Textbook, Skill Drills, and GUIDES for code snippets to help complete this module.
 
-Author: Denise Case
+Author: Michael J Moore
 
-TODO: Change the module name in this opening docstring to use your name instead of case. 
-TODO: Change the author in this opening docstring to your name or alias. 
-TODO: Remove each TODO after you complete it. 
 """
 
 #####################################
