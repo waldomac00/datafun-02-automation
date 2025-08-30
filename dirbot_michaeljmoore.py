@@ -71,7 +71,7 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
         year_path = ROOT_DIR / str(year)
         logger.info(f"Created folder: {year_path}")
         year_path.mkdir(exist_ok=True)
-        logger.info(f"Created folder: {year_path}")
+   
 
     # Log function name and parameters
     logger.info("FUNCTION: create_folders_for_range()")
@@ -105,9 +105,8 @@ def create_folders_from_list(folder_list: list) -> None:
     Arguments:
     folder_list -- A list of strings representing folder names.
     '''
-    for name in folder_list():
+    for name in folder_list:
         name_path = ROOT_DIR / str(name)
-        logger.info(f"Created folder: {name_path}")
         name_path.mkdir(exist_ok=True)
         logger.info(f"Created folder: {name_path}")
 
@@ -139,6 +138,10 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
     folder_list -- A list of strings (e.g., ['csv', 'excel']).
     prefix -- A string to prefix each name (e.g., 'output-').
     '''
+    for name in folder_list:
+        prefix_name_path = ROOT_DIR / str(prefix + name)
+        prefix_name_path.mkdir(exist_ok=True)
+
 
     logger.info("FUNCTION: create_prefixed_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, prefix = {prefix}")
