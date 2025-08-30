@@ -1,5 +1,5 @@
 """
-File: michaeljmoore_project_setup.py
+File: dirbot_michaeljmoore.py
 
 Purpose: Automate the creation of project folders 
 (and demonstrate basic Python coding skills).
