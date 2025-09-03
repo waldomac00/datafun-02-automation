@@ -16,7 +16,8 @@ Author: Michael J Moore
 
 # Import from the Python Standard library
 import pathlib
-import sys      
+import sys   
+import time  # Needed For Function 4 below   
 
 # Import packages from requirements.txt
 import loguru   
@@ -168,6 +169,16 @@ def create_folders_periodically(duration_seconds: int) -> None:
     '''    
     logger.info("FUNCTION: create_folders_periodically()")
     logger.info(f"PARAMETER: duration_seconds = {duration_seconds}")
+
+    math_classes =  ['algebra', 'geometry', 'calculus', 'statistics', 'trigonometry']
+    count = 1
+    for class_name in math_classes:
+        math_folder = f"{count}_{class_name}"
+        folder_path = ROOT_DIR / math_folder
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
+        count += 1
+        time.sleep(duration_seconds)
     
     # TODO: Import time module from the Standard Library at the top if needed
     # TODO: Use a counter or a list to control how many folders to create

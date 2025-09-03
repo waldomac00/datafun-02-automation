@@ -608,3 +608,106 @@ Number of Locations         16
 2025-08-30 16:28:43.133 | INFO     | __main__:main:236 - # Completed execution of main()
 2025-08-30 16:28:43 | INFO | __main__:237 | #####################################
 2025-08-30 16:28:43.133 | INFO     | __main__:main:237 - #####################################
+2025-09-03 18:51:23 | INFO | utils_michaeljmoore:47 | Logger loaded.
+2025-09-03 18:51:23 | INFO | __main__:37 | Logger loaded.
+2025-09-03 18:51:23.527 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-03 18:51:23 | INFO | __main__:220 | #####################################
+2025-09-03 18:51:23.527 | INFO     | __main__:main:220 - #####################################
+2025-09-03 18:51:23 | INFO | __main__:221 | # Starting execution of main()
+2025-09-03 18:51:23.528 | INFO     | __main__:main:221 - # Starting execution of main()
+2025-09-03 18:51:23 | INFO | __main__:222 | #####################################
+
+2025-09-03 18:51:23.528 | INFO     | __main__:main:222 - #####################################
+
+2025-09-03 18:51:23 | INFO | __main__:225 | Byline: 
+**********************************************************
+Moore CAD Design — Project Header
+**********************************************************
+Author:                     Michael J Moore
+Motto:                      Do Math not Magic. Show Your Work!
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+Location:                   Mexico, Missouri
+Office Locations            ['Mexico', 'Moberly', 'Fulton', 'Columbia']
+Number of Locations         16
+**********************************************************
+
+2025-09-03 18:51:23.528 | INFO     | __main__:main:225 - Byline: 
+**********************************************************
+Moore CAD Design — Project Header
+**********************************************************
+Author:                     Michael J Moore
+Motto:                      Do Math not Magic. Show Your Work!
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+Location:                   Mexico, Missouri
+Office Locations            ['Mexico', 'Moberly', 'Fulton', 'Columbia']
+Number of Locations         16
+**********************************************************
+
+2025-09-03 18:51:23 | INFO | __main__:73 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-03 18:51:23.530 | INFO     | __main__:create_folders_for_range:73 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-03 18:51:23 | INFO | __main__:73 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-03 18:51:23.533 | INFO     | __main__:create_folders_for_range:73 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-03 18:51:23 | INFO | __main__:73 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-03 18:51:23.535 | INFO     | __main__:create_folders_for_range:73 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-03 18:51:23 | INFO | __main__:73 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-03 18:51:23.536 | INFO     | __main__:create_folders_for_range:73 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-03 18:51:23 | INFO | __main__:78 | FUNCTION: create_folders_for_range()
+2025-09-03 18:51:23.537 | INFO     | __main__:create_folders_for_range:78 - FUNCTION: create_folders_for_range()
+2025-09-03 18:51:23 | INFO | __main__:79 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-03 18:51:23.537 | INFO     | __main__:create_folders_for_range:79 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-03 18:51:23 | INFO | __main__:112 | Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-03 18:51:23.538 | INFO     | __main__:create_folders_from_list:112 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-03 18:51:23 | INFO | __main__:112 | Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-03 18:51:23.539 | INFO     | __main__:create_folders_from_list:112 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-03 18:51:23 | INFO | __main__:112 | Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-03 18:51:23.540 | INFO     | __main__:create_folders_from_list:112 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-03 18:51:23 | INFO | __main__:114 | FUNCTION: create_folders_from_list()
+2025-09-03 18:51:23.540 | INFO     | __main__:create_folders_from_list:114 - FUNCTION: create_folders_from_list()
+2025-09-03 18:51:23 | INFO | __main__:115 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-03 18:51:23.541 | INFO     | __main__:create_folders_from_list:115 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-03 18:51:23 | INFO | __main__:147 | FUNCTION: create_prefixed_folders()
+2025-09-03 18:51:23.542 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:147 - FUNCTION: create_prefixed_folders()
+2025-09-03 18:51:23 | INFO | __main__:148 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-03 18:51:23.542 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:148 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-03 18:51:23 | INFO | __main__:170 | FUNCTION: create_folders_periodically()
+2025-09-03 18:51:23.543 | INFO     | __main__:create_folders_periodically:170 - FUNCTION: create_folders_periodically()
+2025-09-03 18:51:23 | INFO | __main__:171 | PARAMETER: duration_seconds = 5
+2025-09-03 18:51:23.543 | INFO     | __main__:create_folders_periodically:171 - PARAMETER: duration_seconds = 5
+2025-09-03 18:51:23 | INFO | __main__:179 | Created folder: C:\Repos\datafun-02-automation\1_algebra
+2025-09-03 18:51:23.544 | INFO     | __main__:create_folders_periodically:179 - Created folder: C:\Repos\datafun-02-automation\1_algebra
+2025-09-03 18:51:28 | INFO | __main__:179 | Created folder: C:\Repos\datafun-02-automation\2_geometry
+2025-09-03 18:51:28.546 | INFO     | __main__:create_folders_periodically:179 - Created folder: C:\Repos\datafun-02-automation\2_geometry
+2025-09-03 18:51:33 | INFO | __main__:179 | Created folder: C:\Repos\datafun-02-automation\3_calculus
+2025-09-03 18:51:33.549 | INFO     | __main__:create_folders_periodically:179 - Created folder: C:\Repos\datafun-02-automation\3_calculus
+2025-09-03 18:51:38 | INFO | __main__:179 | Created folder: C:\Repos\datafun-02-automation\4_statistics
+2025-09-03 18:51:38.553 | INFO     | __main__:create_folders_periodically:179 - Created folder: C:\Repos\datafun-02-automation\4_statistics
+2025-09-03 18:51:43 | INFO | __main__:179 | Created folder: C:\Repos\datafun-02-automation\5_trigonometry
+2025-09-03 18:51:43.554 | INFO     | __main__:create_folders_periodically:179 - Created folder: C:\Repos\datafun-02-automation\5_trigonometry
+2025-09-03 18:51:48 | INFO | __main__:208 | FUNCTION: create_standardized_folders()
+2025-09-03 18:51:48.556 | INFO     | __main__:create_standardized_folders:208 - FUNCTION: create_standardized_folders()
+2025-09-03 18:51:48 | INFO | __main__:209 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-03 18:51:48.557 | INFO     | __main__:create_standardized_folders:209 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-03 18:51:48 | INFO | __main__:246 | 
+#####################################
+2025-09-03 18:51:48.558 | INFO     | __main__:main:246 - 
+#####################################
+2025-09-03 18:51:48 | INFO | __main__:247 | # Completed execution of main()
+2025-09-03 18:51:48.559 | INFO     | __main__:main:247 - # Completed execution of main()
+2025-09-03 18:51:48 | INFO | __main__:248 | #####################################
+2025-09-03 18:51:48.559 | INFO     | __main__:main:248 - #####################################
