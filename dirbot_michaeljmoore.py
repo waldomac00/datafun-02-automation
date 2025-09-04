@@ -68,20 +68,19 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     start_year -- The starting year of the range (inclusive).
     end_year -- The ending year of the range (inclusive).
     '''
-    for year in range(start_year, end_year + 1):
-        year_path = ROOT_DIR / str(year)
-        logger.info(f"Created folder: {year_path}")
-        year_path.mkdir(exist_ok=True)
-   
-
     # Log function name and parameters
     logger.info("FUNCTION: create_folders_for_range()")
     logger.info(f"PARAMETERS: start_year = {start_year}, end_year = {end_year}")
 
-    # TODO: Loop through the years from start_year to end_year (inclusive)
-    # TODO: For each year, create a folder using ROOT_DIR / str(year)
-    # TODO: Log a message each time a folder is created
-    # TODO: Use .mkdir(exist_ok=True) so the program doesn't crash if the folder already exists
+    # Loop through the years from start_year to end_year (inclusive)
+    # For each year, create a folder using ROOT_DIR / str(year)
+    # Log a message each time a folder is created
+    # Use .mkdir(exist_ok=True) so the program doesn't crash if the folder already exists
+
+    for year in range(start_year, end_year + 1):
+        year_path = ROOT_DIR / str(year)
+        logger.info(f"Created folder: {year_path}")
+        year_path.mkdir(exist_ok=True)
 
     # Example starter structure:
     # for year in range(start_year, end_year + 1):
@@ -106,17 +105,21 @@ def create_folders_from_list(folder_list: list) -> None:
     Arguments:
     folder_list -- A list of strings representing folder names.
     '''
-    for name in folder_list:
-        name_path = ROOT_DIR / str(name)
-        name_path.mkdir(exist_ok=True)
-        logger.info(f"Created folder: {name_path}")
-
     logger.info("FUNCTION: create_folders_from_list()")
     logger.info(f"PARAMETER: folder_list = {folder_list}")
 
-    # TODO: Loop through the list of folder names
-    # TODO: For each name, create a folder using ROOT_DIR / name
-    # TODO: Log a message each time a folder is created
+    # Loop through the list of folder names
+    # For each name, create a folder using ROOT_DIR / name
+    # Log a message each time a folder is created
+    # Ensure folder names are lower case and have no spaces
+
+    for name in folder_list:
+        folder_name = str(name)
+        folder_name = folder_name.replace(" ", "_").lower()
+        name_path = ROOT_DIR / folder_name
+        name_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {name_path}")
+
 
     pass
 
@@ -139,17 +142,19 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
     folder_list -- A list of strings (e.g., ['csv', 'excel']).
     prefix -- A string to prefix each name (e.g., 'output-').
     '''
-    for name in folder_list:
-        prefix_name_path = ROOT_DIR / str(prefix + name)
-        prefix_name_path.mkdir(exist_ok=True)
-
 
     logger.info("FUNCTION: create_prefixed_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, prefix = {prefix}")
 
-    # TODO: Implement this function professionally and remove the temporary pass.
-    # TODO: Use a list comprehension to create the folder names.
-    pass
+    # Create a list of prefixed folder names using list comprehension
+    # Iterate over the prefixed names, create each folder, and log the action
+
+    for name in folder_list:
+        prefix_name_path = ROOT_DIR / str(prefix + name)
+        prefix_name_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {prefix_name_path}")
+
+
 
   
 
@@ -170,6 +175,10 @@ def create_folders_periodically(duration_seconds: int) -> None:
     logger.info("FUNCTION: create_folders_periodically()")
     logger.info(f"PARAMETER: duration_seconds = {duration_seconds}")
 
+    # Create folders for each math class, waiting between each creation.
+    # Each folder is named with a count and the class name (e.g., "1_algebra").
+    # Wait for the specified duration before creating the next folder.
+
     math_classes =  ['algebra', 'geometry', 'calculus', 'statistics', 'trigonometry']
     count = 1
     for class_name in math_classes:
@@ -180,11 +189,7 @@ def create_folders_periodically(duration_seconds: int) -> None:
         count += 1
         time.sleep(duration_seconds)
     
-    # TODO: Import time module from the Standard Library at the top if needed
-    # TODO: Use a counter or a list to control how many folders to create
-    # TODO: Wait between folder creations using time.sleep()
-    # TODO: Log each wait and creation
-    
+     
     pass
 
 
@@ -207,6 +212,29 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
 
     logger.info("FUNCTION: create_standardized_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, to_lowercase = {to_lowercase}, remove_spaces = {remove_spaces}")
+
+    # Example folder names using taco
+    
+    taco_types = ['Al Pastor', 'Carne Asada', 'Fish', 'Carnitas']
+
+    # Loop through the list of folder names
+    # For each name, apply transformations based on parameters
+    # Create a folder using ROOT_DIR / transformed_name
+    # Log a message each time a folder is created
+    # Ensure folder names are lower case and/or have no spaces based on parameters
+    # Example folder names to create
+
+    for tacos in taco_types:
+        taco_folder = str("Taco " + tacos)
+        if to_lowercase:
+           taco_folder = taco_folder.lower()
+        if remove_spaces:
+            taco_folder = taco_folder.replace(" ", "_")
+        taco_path = ROOT_DIR / taco_folder
+        taco_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {taco_path}")
+        
+
 
     pass
   
