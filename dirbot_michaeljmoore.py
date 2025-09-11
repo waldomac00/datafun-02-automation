@@ -79,8 +79,9 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
 
     for year in range(start_year, end_year + 1):
         year_path = ROOT_DIR / str(year)
-        logger.info(f"Created folder: {year_path}")
         year_path.mkdir(exist_ok=True)
+        (year_path / ".gitkeep").touch(exist_ok=True)  # Add to create a .gitkeep file in each folder
+        logger.info(f"Created folder: {year_path}")
 
     # Example starter structure:
     # for year in range(start_year, end_year + 1):
@@ -118,6 +119,7 @@ def create_folders_from_list(folder_list: list) -> None:
         folder_name = folder_name.replace(" ", "_").lower()
         name_path = ROOT_DIR / folder_name
         name_path.mkdir(exist_ok=True)
+        (name_path / ".gitkeep").touch(exist_ok=True)  # Add to create a .gitkeep file in each folder
         logger.info(f"Created folder: {name_path}")
 
 
@@ -152,6 +154,7 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
     for name in folder_list:
         prefix_name_path = ROOT_DIR / str(prefix + name)
         prefix_name_path.mkdir(exist_ok=True)
+        (prefix_name_path / ".gitkeep").touch(exist_ok=True)  # Add to create a .gitkeep file in each folder
         logger.info(f"Created folder: {prefix_name_path}")
 
 
@@ -185,6 +188,7 @@ def create_folders_periodically(duration_seconds: int) -> None:
         math_folder = f"{count}_{class_name}"
         folder_path = ROOT_DIR / math_folder
         folder_path.mkdir(exist_ok=True)
+        (folder_path / ".gitkeep").touch(exist_ok=True)  # Add to create a .gitkeep file in each folder
         logger.info(f"Created folder: {folder_path}")
         count += 1
         time.sleep(duration_seconds)
@@ -232,9 +236,9 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
             taco_folder = taco_folder.replace(" ", "_")
         taco_path = ROOT_DIR / taco_folder
         taco_path.mkdir(exist_ok=True)
+        (taco_path / ".gitkeep").touch(exist_ok=True)  # Add to create a .gitkeep file in each folder
         logger.info(f"Created folder: {taco_path}")
         
-
 
     pass
   
@@ -244,12 +248,12 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
 
 def main() -> None:
     ''' Main function to demonstrate module capabilities. '''
-
+#
     logger.info("#####################################")
     logger.info("# Starting execution of main()")
     logger.info("#####################################\n")
 
-    # TODO: Change this to use your module and your get_byline() function instead
+    #Change this to use your module and your get_byline() function instead
     logger.info(f"Byline: {utils_michaeljmoore.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
